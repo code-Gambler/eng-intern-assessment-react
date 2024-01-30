@@ -1,7 +1,11 @@
+//Author: Steven David Pillay
 import React from 'react'
+import StopWatch from './StopWatch'
 
 export default function App() {
-    return(
-        <div></div>
-    )
+    return ( 
+        <div className="App"> 
+          <StopWatch /> 
+        </div> 
+    ); 
 }
